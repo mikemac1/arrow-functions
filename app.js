@@ -218,8 +218,10 @@ joe.scopeArrow();
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// I don't think I understand as I don't see a joe.scope but I do see a Student.prototype.scope.  If that is what is being referred to, "this" is the Student constructor.
+
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// "This" appears to be looking at the entire browser window as there is no reference to Student or any 
+
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//  It does not look like "this" or constructors works as intended in arrow functions after seeing the console log. I'm not sure why. Unless there is a syntax to follow it doesn't look like arrow functions will be used for constructors or prototypes.
